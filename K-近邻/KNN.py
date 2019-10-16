@@ -295,4 +295,3 @@ def classifyPerson():
 if __name__ == '__main__':
     # datingClassTest()
     handwritingClassTest()
-    # classifyPerson()
