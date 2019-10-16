@@ -375,7 +375,7 @@ def get_tree_height(tree):
 
     child_trees = list(tree.values())[0].values()
 
-    # 遍历子树, 获得子树的最大高度
+    # 遍历子树, 获得子树的最大高度  
     max_height = 0
     for child_tree in child_trees:
         child_tree_height = get_tree_height(child_tree)
