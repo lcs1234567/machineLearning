@@ -293,7 +293,6 @@ def classifyPerson():
     print("You will probably like this person: ", resultList[classifierResult - 1])
 
 if __name__ == '__main__':
-    # test1()
     # datingClassTest()
     handwritingClassTest()
     # classifyPerson()
