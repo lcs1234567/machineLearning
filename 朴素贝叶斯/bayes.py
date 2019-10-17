@@ -271,7 +271,7 @@ def testParseTest():
 # -----------------------------------------------------------------------------------
 # 项目案例3: 使用朴素贝叶斯从个人广告中获取区域倾向
 
-# 将文本文件解析成 词条向量
+# 将文本文件解析成 词条向量  
 def setOfWords2VecMN(vocabList,inputSet):
     returnVec=[0]*len(vocabList)  # 创建一个其中所含元素都为0的向量
     for word in inputSet:
