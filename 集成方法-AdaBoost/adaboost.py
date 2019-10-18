@@ -22,9 +22,9 @@ def loadSimpData():
     return dataArr, labelArr
 
 
-# general function to parse tab -delimited floats
+# general function to parse tab -delimited floats  
 def loadDataSet(fileName):
-    # get number of fields
+    # get number of field
     numFeat = len(open(fileName).readline().split('\t'))
     dataArr = []
     labelArr = []

@@ -324,7 +324,6 @@ def evaluate_algorithm(dataset, algorithm, n_folds, *args):
 
 
 if __name__ == '__main__':
-
     # 加载数据
     dataset = loadDataSet('../input/7.RandomForest/sonar-all-data.txt')
     # print dataset

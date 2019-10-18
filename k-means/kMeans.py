@@ -156,7 +156,7 @@ if __name__ == "__main__":
     # 测试基础的函数
     testBasicFunc()
 
-    # 测试 kMeans 函数
+    # 测试 kMeans 函数  
     # testKMeans()
 
     # 测试二分 biKMeans 函数

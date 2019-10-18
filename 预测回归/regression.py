@@ -49,7 +49,6 @@ def standRegres(xArr, yArr):
     Returns:
         ws：回归系数
     '''
-
     # mat()函数将xArr，yArr转换为矩阵 mat().T 代表的是对矩阵进行转置操作
     xMat = mat(xArr)
     yMat = mat(yArr).T
