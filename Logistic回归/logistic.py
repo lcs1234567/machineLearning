@@ -47,7 +47,7 @@ def sigmoid(inX):
     return 2 * 1.0/(1+exp(-2*inX)) - 1
 
 
-# 正常的处理方案
+# 正常的处理方案  
 # 两个参数：第一个参数==> dataMatIn 是一个2维NumPy数组，每列分别代表每个不同的特征，每行则代表每个训练样本。
 # 第二个参数==> classLabels 是类别标签，它是一个 1*100 的行向量。为了便于矩阵计算，需要将该行向量转换为列向量，做法是将原向量转置，再将它赋值给labelMat。
 def gradAscent(dataMatIn, classLabels):
